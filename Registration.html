@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="StyleSheet.css">
+        <style>
+            button[type="submit"]{
+                padding: 5px;
+                color: green;
+                font-size: 20px;
+            }
+
+            input[type="text"],
+            input[type="password"],
+            input[type="number"],
+            select{
+                width:10%;
+                box-sizing: border-box;
+                border: 1px solid;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">AboutUs</a></li>
+                <li><a href="ContactUs.html">ContactUs</a></li>
+                <li><a href="Registration.html">Sign Up</a></li>
+                <li><a href="Login.html">Sign In</a></li>
+            </ul>
+        </nav>
+        <br><br><br>
+        <form action="Login.html">
+        <div>
+            Username: <input type="text" name="name">
+        </div><br>
+        <div>
+            Password: <input type="password" name="pass">
+        </div><br>
+        <div>
+            Email: <input type="email" name="office" id="myid">
+        </div>
+        <br>
+        <div>
+            Mobile Number : <input type="tel" pattern="[0-9]{10}" name="personal" id="per" title="The maximum numbers allowed are 10 digits.">
+        </div>
+        <br>
+        <div>
+            Date Of Birth:
+            <input type="date">
+        </div><br>
+        <div>
+            age : <input type="number" name="ag" value="a" max="150">
+        </div><br>
+        <div>
+            gender  : <input type="radio" name="gen" value="ge">Male
+                    <input type="radio" name="gen" value="ge">Female
+        </div>
+        <br>
+        <div>
+            branch :<br> 
+            <select>
+                <option value="">~select~</option>
+                <option value="CSE">CSE</option>
+                <option value="CSM">CSM</option>
+                <option value="CSD">CSD</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="MECH">MECH</option>
+                <option value="CIVIL">CIVIL</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            languages:<input type="checkbox" name="lang" value="lan">Tamil
+            <input type="checkbox" name="lang" value="lan">Telugu
+            <input type="checkbox" name="lang" value="lan">Hindi
+            <input type="checkbox" name="lang" value="lan">English
+            <input type="checkbox" name="lang" value="lan">Spanish
+        </div>
+        <br>
+        <div>
+            Address:<br>  
+            <textarea></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        <br><br><br><br>
+        </form>
+        </center>
+        <footer>
+            <p>&copy;pavan 2024 My Company. ALl rights are reserved.</p>
+        </footer>
+    </body>
+</html>
